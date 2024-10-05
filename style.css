@@ -1,0 +1,131 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #ffe9ed;
+    background-image: url('https://www.google.com/url?sa=i&url=https%3A%2F%2Fclipart-library.com%2Fclipart%2F1562986.htm&psig=AOvVaw2XdtZQmfkwG-GKyyOnNwEK&ust=1728216531908000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCJiywrqa94gDFQAAAAAdAAAAABAJ'); /* Virágos háttérkép az egész oldalhoz */
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: #333;
+    min-height: 100vh;
+}
+
+header {
+    background-image: url('virág.png'); /* A feltöltött virágos kép, amit a fejlécben használunk */
+    background-size: contain; /* A kép méretének megfelelő megjelenítés */
+    background-position: top center; /* A kép a fejléc tetején jelenik meg */
+    background-repeat: no-repeat; /* A kép nem ismétlődik */
+    padding: 100px 20px;
+    text-align: center;
+    color: rgb(161, 53, 91);
+    position: relative;
+}
+
+.header-content {
+    background-color: rgba(0, 0, 0, 0.5); /* Fekete átlátszó réteg a szöveg mögött */
+    display: inline-block;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+header h1 {
+    font-size: 4em;
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 1.5em;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    background-color: rgba(255, 201, 201, 0.8); /* Világos, átlátszó sárga */
+    padding: 10px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #8b4513;
+    font-size: 1.1em;
+}
+
+nav ul li a:hover {
+    color: #d2691e;
+}
+
+main {
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8); /* Fehér, átlátszó háttér */
+    border-radius: 15px;
+    margin: 20px auto;
+    max-width: 900px;
+}
+
+.section {
+    margin-bottom: 40px;
+}
+
+h2 {
+    font-size: 2em;
+    color: #8b4513;
+    margin-bottom: 10px;
+}
+
+p, ul {
+    font-size: 1.1em;
+    line-height: 1.6;
+}
+
+ul li {
+    margin-bottom: 8px;
+}
+
+footer {
+    text-align: center;
+    padding: 15px;
+    background-color: rgba(255, 201, 201, 0.8);
+    color: #8b4513;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Mobilbarát stílus */
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 2.5em;
+    }
+
+    header p {
+        font-size: 1.1em;
+    }
+
+    nav ul {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    h2 {
+        font-size: 1.8em;
+    }
+
+    p, ul {
+        font-size: 1em;
+    }
+
+    main {
+        margin: 10px;
+    }
+}
