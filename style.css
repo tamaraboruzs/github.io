@@ -36,6 +36,7 @@ header {
 header h1 {
     font-size: 4em;
     margin-bottom: 10px;
+    font-style:normal;
 }
 
 header p {
@@ -57,12 +58,12 @@ nav ul {
 
 nav ul li a {
     text-decoration: none;
-    color: #8b4513;
-    font-size: 1.1em;
+    color: rgb(161, 53, 91);
+    font-size: 1.3em;
 }
 
 nav ul li a:hover {
-    color: #d2691e;
+    color: rgb(161, 53, 91);
 }
 
 main {
@@ -78,8 +79,8 @@ main {
 }
 
 h2 {
-    font-size: 2em;
-    color: #8b4513;
+    font-size: 3em;
+    color: rgb(161, 53, 91);
     margin-bottom: 10px;
 }
 
@@ -96,7 +97,7 @@ footer {
     text-align: center;
     padding: 15px;
     background-color: rgba(255, 201, 201, 0.8);
-    color: #8b4513;
+    color: rgb(161, 53, 91);
     position: fixed;
     bottom: 0;
     width: 100%;
@@ -128,4 +129,116 @@ footer {
     main {
         margin: 10px;
     }
+}
+.highlight {
+    color: rgb(161, 18, 94); 
+    font-weight: bold; 
+}
+.link {
+    color: rgb(255, 43, 223); 
+    text-decoration: underline; 
+}
+
+.link:hover {
+    color: rgb(161, 53, 91); 
+    text-decoration: underline; 
+}
+.link2 {
+    color: rgb(255, 43, 223); 
+    font-weight: bold;
+    text-decoration: underline; 
+}
+.link2:hover {
+    color: rgb(161, 18, 94);
+    text-decoration: underline;
+}
+
+
+
+
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center; 
+}
+
+.image1 {
+    max-width: 30%; 
+    height: auto; 
+    margin: 20px; 
+    border: 2px solid #ffe4f3; 
+    border-radius: 10px; 
+    box-shadow: 0px 4px 10px rgba(147, 0, 81, 0.1); 
+   
+}
+.image2 {
+    max-width: 50%; 
+    height: auto; 
+    margin: 20px 0; 
+    margin-left: 50px;
+    border: 2px solid #ffe4f3; 
+    border-radius: 10px; 
+    box-shadow: 0px 4px 10px rgba(147, 0, 81, 0.1); 
+}
+.image3 {
+    max-width: 30%; 
+    height: auto; 
+    margin: 20px ; 
+    margin-left: 30px;
+    border: 2px solid #ffe4f3; 
+    border-radius: 10px; 
+    box-shadow: 0px 4px 10px rgba(147, 0, 81, 0.1); 
+}
+.image4 {
+    max-width: 60%; 
+    height: auto; 
+    margin: 20px 0; 
+    margin-bottom: 40px;
+    border: 2px solid #ffe4f3; 
+    border-radius: 10px; 
+    box-shadow: 0px 4px 10px rgba(147, 0, 81, 0.1);
+
+}
+.image5 {
+    max-width: 55%; 
+    height: auto; 
+    margin: 20px 0; 
+    margin-bottom: 70px;
+    margin-left: 20px;
+    margin-right: 30px;
+    border: 2px solid #ffe4f3; 
+    border-radius: 10px; 
+    box-shadow: 0px 4px 10px rgba(147, 0, 81, 0.1);
+}
+.image6 {
+    max-width: 35%; 
+    height: auto; 
+    margin: 20px 0; 
+    margin-bottom: 20px;
+    border: 2px solid #ffe4f3; 
+    border-radius: 10px; 
+    box-shadow: 0px 4px 10px rgba(147, 0, 81, 0.1);
+}
+/* Responsive viselkedés mobilon */
+@media screen and (max-width: 600px) {
+    .image1 {
+        max-width: 20%; 
+    }
+    .image2{
+    max-width: 40%; 
+    }
+    .image3 {
+     max-width:20%;
+    }
+    .image4 {
+    max-width:50%;
+    }
+    .image5 {
+    max-width: 45%;
+    }
+    .image6 {
+    max-width: 25%;
+    }
+
 }
