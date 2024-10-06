@@ -225,22 +225,22 @@ footer {
 /* Responsive viselkedés mobilon */
 @media screen and (max-width: 600px) {
     .image1 {
-        max-width: 30%; 
+        max-width: 20%; 
     }
     .image2{
-    max-width: 50%; 
+    max-width: 40%; 
     }
     .image3 {
-     max-width:30%;
+     max-width:20%;
     }
     .image4 {
-    max-width:60%;
+    max-width:50%;
     }
     .image5 {
-    max-width: 55%;
+    max-width: 45%;
     }
     .image6 {
-    max-width: 35%;
+    max-width: 25%;
     }
 
 }
